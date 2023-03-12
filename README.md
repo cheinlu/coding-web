@@ -1,24 +1,19 @@
-# coding
+# 使用指南
 
-## Project setup
-```
-yarn install
-```
+## 项目概论
+仿 https://coding.qq.com/home，已经实现网站头部导航轮播图，编程好工具悬浮（部分）,网站底部，右下导航（未实现）
 
-### Compiles and hot-reloads for development
+## 启动命令
 ```
-yarn serve
+yarn serve`
 ```
 
-### Compiles and minifies for production
+或者
+
 ```
-yarn build
+npm run serve
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## 访问路径
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+http://localhost:8080/
