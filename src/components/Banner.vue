@@ -69,7 +69,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .banner-container {
-  width: 100vw;
+  max-width: 1920px;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    <Sidebar></Sidebar>
     <Banner></Banner>
     <Announce></Announce>
     <Programme></Programme>
@@ -11,9 +12,10 @@
 <script>
 import Header from './components/Header.vue'
 import Banner from './components/Banner.vue'
-import Announce from './components/Announce'
+import Announce from './components/Announce.vue'
 import Programme from './components/Programme.vue'
 import Footer from './components/Footer.vue'
+import Sidebar from './components/Sidebar'
 
 export default {
   name: 'App',
@@ -22,12 +24,14 @@ export default {
     Banner,
     Announce,
     Programme,
-    Footer
+    Footer,
+    Sidebar
   }
 }
 </script>
 
 <style>
+
 a {
   color: #4a596f;
   text-decoration: none
@@ -42,6 +46,8 @@ ol {
   list-style: none;
 }
 #app {
+  box-sizing: border-box;
+  margin: 0 auto;
   background-color: #eff3f8;
   color: #4a596f;
 }

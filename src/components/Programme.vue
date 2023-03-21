@@ -11,7 +11,7 @@
             <div class="labs-aside-wrap">
               <ul class="labs-nav">
                 <li class="labs-nav-item active">
-                  <div class="labs-nav-item-icon current">
+                  <div class="labs-nav-item-icon idea">
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-creative.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -24,7 +24,7 @@
                   </div>
                 </li>
                 <li class="labs-nav-item">
-                  <div class="labs-nav-item-icon current">
+                  <div class="labs-nav-item-icon python">
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-python.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -37,7 +37,7 @@
                   </div>
                 </li>
                 <li class="labs-nav-item">
-                  <div class="labs-nav-item-icon" style="background-color: rgb(246, 202, 219);">
+                  <div class="labs-nav-item-icon coding" >
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-cod.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -50,7 +50,7 @@
                   </div>
                 </li>
                 <li class="labs-nav-item">
-                  <div class="labs-nav-item-icon">
+                  <div class="labs-nav-item-icon lab">
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-3d.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -63,7 +63,7 @@
                   </div>
                 </li>
                 <li class="labs-nav-item">
-                  <div class="labs-nav-item-icon">
+                  <div class="labs-nav-item-icon smart">
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-ai.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -76,7 +76,7 @@
                   </div>
                 </li>
                 <li class="labs-nav-item">
-                  <div class="labs-nav-item-icon">
+                  <div class="labs-nav-item-icon game">
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-game.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -89,7 +89,7 @@
                   </div>
                 </li>
                 <li class="labs-nav-item">
-                  <div class="labs-nav-item-icon">
+                  <div class="labs-nav-item-icon art">
                     <img class="labs-nav-item-pic" src="@/assets/icon-pic-art.png" alt="" />
                   </div>
                   <div class="labs-nav-item-meta">
@@ -267,6 +267,27 @@ export default {}
                     transition: all 200ms;
                   }
 
+                }
+                .idea:hover{
+                    background-color: rgb(251, 232, 194);
+                  }
+                .python:hover{
+                  background-color: rgb(193, 223, 251);
+                }
+                .coding:hover{
+                  background-color: rgb(246, 202, 219);
+                }
+                .lab:hover{
+                  background-color: rgb(187, 255, 245);
+                }
+                .smart:hover{
+                  background-color: rgb(193, 244, 236);
+                }
+                .game:hover{
+                  background-color: rgb(220, 199, 251);
+                }
+                .art:hover{
+                  background-color: rgb(246, 202, 219);
                 }
                 .labs-nav-item-meta {
                   color: #fff;
